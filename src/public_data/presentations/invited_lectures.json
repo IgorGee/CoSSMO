@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Stochastic Path Optimization for Robotic Bees",
+        "location": "Tsinghua University",
+        "host": "(Samuel) Qing-Shan Jia",
+        "date": {
+            "month": 5,
+            "year": 2016
+        }
+    },
+    {
+        "title": "Ghost Simulation Model and Filtered Monte Carlo: Challenges and Opportunities",
+        "location": "Tinbergen Institute and Vrije Universiteit, Amsterdam",
+        "host": "Bernd Heidergott",
+        "date": {
+            "month": 6,
+            "year": 2013
+        }
+    },
+    {
+        "title": "On Honeypots, Mobile Apps and Risk Theory",
+        "location": "Department of Economics, Centre for Actuarial Studies, University of Melbourne",
+        "host": "Daniel Dufresne",
+        "date": {
+            "month": 1,
+            "year": 2013
+        }
+    }
+]

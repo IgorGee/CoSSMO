@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Performance Analysis of CR-Honeynet to Prevent Jamming Attack through Stochastic Modeling",
+        "authors": ["Bhunia", "Suman and Sengupta", "Shamik and Vázquez-Abad, Felisa"],
+        "journal": {
+            "name": "Pervasive and Mobile Computing",
+            "volume": "No. 21",
+            "pages": {
+                "start": 133,
+                "end": 149
+            }
+        },
+        "website": null
+    },
+    {
+        "title": "Cobweb Theorems with Production Lags and Price Forecasting",
+        "authors": ["Daniel Dufresne", "Felisa Vázquez-Abad"],
+        "journal": {
+            "name": "Economics: The Open-Access, Open-Assessment E-Journal",
+            "volume": "Vol. 7",
+            "pages": {
+                "start": 2013,
+                "end": 2023
+            }
+        },
+        "website": "http://dx.doi.org/10.5018/economics-ejournal.ja.2013-23"
+    }
+]

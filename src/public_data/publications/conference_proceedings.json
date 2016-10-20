@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Stochastic Path Optimization for Robotic Bees using Cloud Computing",
+        "authors": ["F.J. Vázquez-Abad", "S. Bernabel"],
+        "editors": null,
+        "event": {
+            "name": "13th International Workshop on Discrete Event Systems (WODES)",
+            "location": "Xi’an, China",
+            "date": {
+                "month": 4,
+                "year": 2016
+            },
+            "pages": {
+                "start": 133,
+                "end": 149
+            }
+        }
+    },
+    {
+        "title": "Stochastic Approximation for Regulating Circadian Cycles, a Precision Medicine Viewpoint",
+        "authors": ["A. Nikolaev", "F.J. Vázquez-Abad"],
+        "editors": ["L. Yilmaz", "W. K V. Chan", "I. Moon", "T. M. K. Roeder", "C. Macal", "M. D. Rossetti"],
+        "event": {
+            "name": "Winter Simulation Conference",
+            "location": "Hampton Beach, CA",
+            "date": {
+                "month": 11,
+                "year": 2015
+            },
+            "pages": null
+        }
+    },
+    {
+        "title": "Change of Measure for the Square Root Process",
+        "authors": ["D. Dufresne", "F.J. Vázquez-Abad", "S. Chin"],
+        "editors": ["A. Tolk", "S. D. Diallo", "I. O. Ryzhov", "L. Yilmaz", "S. Buckley", "J. A. Miller"],
+        "event": {
+            "name": "Winter Simulation Conference",
+            "location": "Savannah, GA",
+            "date": {
+                "month": 11,
+                "year": 2014
+            },
+            "pages": {
+                "start": 465,
+                "end": 475
+            }
+        }
+    },
+    {
+        "title": "LP-Based Approaches to Stationary Constrained Markov Decision Problems",
+        "authors": ["F.J. Vázquez-Abad", "P. Dashevsy", "M.P. Johnson"],
+        "editors": ["J.M. Faure"],
+        "event": {
+            "name": "WODES",
+            "location": "Paris, France",
+            "date": {
+                "month": 4,
+                "year": 2014
+            },
+            "pages": null
+        }
+    },
+    {
+        "title": "Ghost Simulation Model for Discrete Event Systems, an Application to a Local Bus Service",
+        "authors": ["F.J. Vázquez-Abad"],
+        "editors": ["R. Pasupathy", "S.-H. Kim", "A. Tolk", "R. Hill", "M. E. Kuhl"],
+        "event": {
+            "name": "Winter Simulation Conference",
+            "location": "Washington, DC",
+            "date": {
+                "month": 11,
+                "year": 2013
+            },
+            "pages": {
+                "start": 655,
+                "end": 666
+            }
+        }
+    }
+]
