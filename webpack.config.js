@@ -1,0 +1,20 @@
+const cssLoaderWithModules =
+    'css?modules&localIdentName=[name]__[local]___[hash:base64:5]'
+
+export default {
+  entry: './src/main.js',
+  output: {
+    path: './dist',
+    filename: 'bundle.js'
+  },
+  module: {
+    loaders: [
+      { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
+      { test: /\.scss$/, loaders: ['style', cssLoaderWithModules, 'postcss', 'sass'] }
+    ]
+  },
+  devServer: {
+    historyApiFallback: true
+  },
+  postcss: () => [require('autoprefixer'), require('lost')]
+}
