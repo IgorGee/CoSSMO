@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router'
+import { Button } from 'react-toolbox/lib/button';
 
 const pages = [
     { link: '/', title: 'Home'},
@@ -15,7 +16,7 @@ const Navigation = props => {
 
     const navigationButtons = pages.map((page, index) => {
         return (
-            <Link to={page.link} key={index}>{page.title}</Link>
+            <Link to={page.link} key={index}><Button label={page.title}></Button></Link>
         )
     })
 
