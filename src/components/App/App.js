@@ -4,12 +4,13 @@ import Navigation from '../Navigation'
 import Footer from '../Footer'
 
 import 'react-toolbox/lib/commons.scss';
+import s from './styles.scss'
 
 const App = props => {
   return (
-    <div>
+    <div className={s.root}>
       <Navigation />
-      {props.children}
+      <main className={s.content}>{props.children}</main>
       <Footer />
     </div>
   )
