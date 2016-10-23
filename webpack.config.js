@@ -16,5 +16,8 @@ export default {
   devServer: {
     historyApiFallback: true
   },
-  postcss: () => [require('autoprefixer'), require('lost')]
+  postcss: () => [require('autoprefixer'), require('lost')],
+  sassLoader: {
+    data: '@import "' + require('path').resolve(__dirname, 'theme/_theme.scss') + '";'
+  }
 }
