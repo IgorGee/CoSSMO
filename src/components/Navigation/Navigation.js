@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router'
-import { Button } from 'react-toolbox/lib/button';
+import { AppBar } from 'react-toolbox/lib/app_bar'
+import { Button } from 'react-toolbox/lib/button'
+import RTBNavigation from 'react-toolbox/lib/navigation'
+import theme from './theme.scss'
 
 const pages = [
   { link: '/', title: 'Home'},
@@ -16,12 +19,16 @@ const Navigation = props => {
 
   const navigationButtons = pages.map((page, index) => {
     return (
-      <Link to={page.link} key={index}><Button label={page.title}></Button></Link>
+      <Link to={page.link} key={index}><Button theme={theme} label={page.title}></Button></Link>
     )
   })
 
   return (
-    <div>{navigationButtons}</div>
+    <AppBar theme={theme} leftIcon="CoSSMO">
+      <RTBNavigation theme={theme}>
+        {navigationButtons}
+      </RTBNavigation>
+    </AppBar>
   )
 }
 
