@@ -1,5 +1,25 @@
 .root {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+  .topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .topic {
+      lost-align: center;
+      lost-column: 1/1;
+      height: 120px;
+      flex-grow: 1;
+
+      @include for-tablet-portrait-up {
+        lost-column: 1/2;
+      }
+
+      @include for-desktop-up {
+        lost-column: 1/4;
+      }
+    }
+  }
 }
