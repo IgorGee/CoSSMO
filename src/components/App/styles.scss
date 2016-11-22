@@ -11,4 +11,8 @@
   max-width: 960px;
   width: 100%;
   align-self: center;
+
+  @include for-tablet-portrait-up {
+    width: calc(100% - 32px);
+  };
 }
