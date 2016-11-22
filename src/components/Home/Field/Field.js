@@ -10,7 +10,7 @@ const Field = props => {
   return (
     <section className={s.root}>
       <h1>{props.name}</h1>
-      {topics}
+      <div className={s.topics}>{topics}</div>
     </section>
   )
 }
