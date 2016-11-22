@@ -4,7 +4,7 @@ import s from './styles.scss'
 
 const Field = props => {
   const topics = props.topics.map(topic =>
-    <div className={s.topic}>{topic}</div>
+    <div className={s.topic}><h6>{topic}</h6></div>
   )
 
   return (
