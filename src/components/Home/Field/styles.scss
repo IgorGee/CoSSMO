@@ -1,3 +1,5 @@
+@lost gutter 4px;
+
 .root {
   display: flex;
   flex-direction: column;
@@ -12,6 +14,7 @@
       lost-column: 1/1;
       height: 120px;
       flex-grow: 1;
+      margin-top: 4px;
 
       @include for-tablet-portrait-up {
         lost-column: 1/2;
