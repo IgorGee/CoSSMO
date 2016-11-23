@@ -8,17 +8,17 @@
 
     .topic {
       lost-align: center;
-      lost-column: 1/1;
+      lost-waffle: 1;
       height: 120px;
-      flex-grow: 1;
-      margin-top: 4px;
 
       @include for-tablet-portrait-up {
-        lost-column: 1/2;
+        lost-waffle: 1/2;
+        height: 170px;
       }
 
       @include for-desktop-up {
-        lost-column: 1/4;
+        lost-waffle: 1/4;
+        height: 220px;
       }
     }
   }
