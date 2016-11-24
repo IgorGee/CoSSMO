@@ -10,7 +10,8 @@ export default {
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
-      { test: /\.scss$/, loaders: ['style', cssLoaderWithModules, 'postcss', 'sass'] }
+      { test: /\.scss$/, loaders: ['style', cssLoaderWithModules, 'postcss', 'sass'] },
+      { test: /\.(jpg|png)$/, loader: 'url', include: './src/images' }
     ]
   },
   devServer: {
