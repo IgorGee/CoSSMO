@@ -2,9 +2,16 @@ import React from 'react'
 
 import s from './styles.scss'
 
+const getBackgroundImageStyle = image => ({
+  background: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(${image}) no-repeat`,
+  backgroundSize: 'cover'
+})
+
 const Field = props => {
   const topics = props.topics.map(topic =>
-    <div className={s.topic}><h6>{topic}</h6></div>
+    <div className={s.topic} style={getBackgroundImageStyle(topic.image)}>
+      <h6>{topic.name}</h6>
+    </div>
   )
 
   return (
