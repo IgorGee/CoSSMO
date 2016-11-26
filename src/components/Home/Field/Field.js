@@ -8,8 +8,11 @@ const getBackgroundImageStyle = image => ({
 })
 
 const Field = props => {
-  const topics = props.topics.map(topic =>
-    <div className={s.topic} style={getBackgroundImageStyle(topic.image)}>
+  const topics = props.topics.map((topic, index) =>
+    <div
+        className={s.topic}
+        style={getBackgroundImageStyle(topic.image)}
+        key={index}>
       <h6>{topic.name}</h6>
     </div>
   )
