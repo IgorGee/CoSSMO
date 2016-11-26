@@ -1,9 +1,16 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-}
+  flex-wrap: wrap;
 
-.logo {
-  align-self: flex-end;
+  background-color: darken($color-primary, 12%);
+  color: $color-text-contrast;
+  padding: 16px 0;
+  margin-top: 8px;
+  box-shadow: 0 -3px 3px rgba(0,0,0,.2);
+
+  > svg {
+    margin-top: 20px;
+  }
 }
