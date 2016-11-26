@@ -30,5 +30,30 @@
         height: 190px;
       }
     }
+
+    .discipline {
+      lost-align: center;
+      lost-waffle: 1/1;
+      height: 80px;
+
+      > h5 {
+        color: $color-text-contrast;
+        font-size: 1.8rem;
+
+        @include for-tablet-portrait-up {
+          font-size: 2rem;
+        };
+      }
+
+      @include for-tablet-portrait-up {
+        lost-waffle: 1/4;
+        height: 130px;
+      }
+
+      @include for-big-desktop-up {
+        lost-waffle: 1/8;
+        height: 150px;
+      }
+    }
   }
 }

@@ -9,5 +9,13 @@ export const topics = {
   dna: require('./Topics/dna.jpg'),
   font: require('./Topics/font.jpg'),
   menger: require('./Topics/menger.jpg'),
-  business: require('./Topics/business.jpg')
+  business: require('./Topics/business.jpg'),
+  math: require('./Topics/math.jpg'),
+  board: require('./Topics/board.jpg'),
+  analysis: require('./Topics/analysis.jpg'),
+  spaceship: require('./Topics/space-ship.jpg'),
+  cartography: require('./Topics/cartography.png'),
+  dollar: require('./Topics/dollar.jpg'),
+  socialMedia: require('./Topics/social-media.jpg'),
+  railway: require('./Topics/railway.jpg')
 }
