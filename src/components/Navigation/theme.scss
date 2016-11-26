@@ -2,6 +2,11 @@
 
 .appBar {
   background-color: $color-primary;
+
+  img {
+    width: 120px;
+    margin: 8px;
+  }
 }
 
 .horizontal {

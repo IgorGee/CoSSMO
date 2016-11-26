@@ -24,7 +24,8 @@ const Navigation = props => {
   })
 
   return (
-    <AppBar theme={theme} leftIcon="CoSSMO">
+    <AppBar theme={theme}>
+      <Link to='/' ><img src="../../images/Logos/CoSSMOLogo.svg" /></Link>
       <RTBNavigation theme={theme}>
         {navigationButtons}
       </RTBNavigation>
