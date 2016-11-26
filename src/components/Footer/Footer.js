@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CunyLogo from './CunyLogo'
+import CunyLogo from '../../images/Logos/CunyLogo'
 import s from './styles.scss'
 
 const Footer = props => {
