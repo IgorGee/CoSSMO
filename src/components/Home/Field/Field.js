@@ -3,7 +3,7 @@ import React from 'react'
 import s from './styles.scss'
 
 const getBackgroundImageStyle = image => ({
-  background: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(${image}) no-repeat`,
+  background: `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(${image}) no-repeat center center`,
   backgroundSize: 'cover'
 })
 
