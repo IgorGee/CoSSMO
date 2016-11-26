@@ -2,26 +2,24 @@ import React from 'react'
 
 import Field from './Field/'
 import s from './styles.scss'
-import Images from '../../images'
-
-const image = Images.traffic
+import { topics as Images } from '../../images'
 
 const computerSimulation = [
-  { name: "Virtual Reality", image },
-  { name: "Experimentation", image },
-  { name: "Simulation Methods", image },
-  { name: "Dimension Reduction", image }
+  { name: "Virtual Reality", image: Images.vrLens },
+  { name: "Experimentation", image: Images.cups },
+  { name: "Simulation Methods", image: Images.virus },
+  { name: "Dimension Reduction", image: Images.fractal }
 ]
 const optimization = [
-  { name: "Decision Making", image },
-  { name: "Control of Dynamic Processes", image },
-  { name: "Machine Learning", image },
-  { name: "Evolutionary Computing", image }
+  { name: "Decision Making", image: Images.chess },
+  { name: "Control of Dynamic Processes", image: Images.circuitBoard },
+  { name: "Machine Learning", image: Images.head },
+  { name: "Evolutionary Computing", image: Images.dna }
 ]
 const stochasticModelling= [
-  { name: "Markov Chains", image },
-  { name: "Markov Processes", image },
-  { name: "Financial Modelling", image }
+  { name: "Markov Chains", image: Images.font },
+  { name: "Markov Processes", image: Images.menger },
+  { name: "Financial Modelling", image: Images.business }
 ]
 
 const Home = props => {
