@@ -11,8 +11,13 @@
       lost-waffle: 1/1;
       height: 120px;
 
-      > h6 {
-        color: white;
+      > h4 {
+        color: #DDD;
+        font-size: 2rem;
+
+        @include for-tablet-portrait-up {
+          font-size: 2.4rem;
+        };
       }
 
       @include for-tablet-portrait-up {

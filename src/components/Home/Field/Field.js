@@ -13,7 +13,7 @@ const Field = props => {
         className={s.topic}
         style={getBackgroundImageStyle(topic.image)}
         key={index}>
-      <h6>{topic.name}</h6>
+      <h4>{topic.name}</h4>
     </div>
   )
 

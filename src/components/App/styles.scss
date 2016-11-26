@@ -2,6 +2,12 @@
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #E4E4E4;
+  color: #555;
+
+  h1, h2, strong {
+    color: #333;
+  }
 }
 
 .content {
