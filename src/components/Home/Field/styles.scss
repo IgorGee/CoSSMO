@@ -20,9 +20,9 @@
         height: 170px;
       }
 
-      @include for-desktop-up {
+      @include for-big-desktop-up {
         lost-waffle: 1/4;
-        height: 220px;
+        height: 190px;
       }
     }
   }
