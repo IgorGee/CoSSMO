@@ -12,7 +12,7 @@
       height: 120px;
 
       > h4 {
-        color: #DDD;
+        color: $color-text-contrast;
         font-size: 2rem;
 
         @include for-tablet-portrait-up {

@@ -1,5 +1,10 @@
 @import "~react-toolbox/lib/commons";
 @import "./breakpoints";
 
+$color-text: #555;
+$color-text-contrast: #DDD;
+$color-bold: #333;
+$color-background: #E4E4E4;
+
 $color-primary: #BF6900;
-$button-neutral-color-contrast: $color-white;
+$button-neutral-color-contrast: $color-text-contrast;
