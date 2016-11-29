@@ -6,26 +6,28 @@ import RTBNavigation from 'react-toolbox/lib/navigation'
 import theme from './theme.scss'
 
 const pages = [
-  { link: '/', title: 'Home'},
-  { link: 'projects', title: 'Projects'},
-  { link: 'events', title: 'Events'},
-  { link: 'publications', title: 'Publications'},
-  { link: 'presentations', title: 'Presentations'},
-  { link: 'opportunities', title: 'Opportunities'},
-  { link: 'about', title: 'About'}
+  { link: '/', title: 'Home' },
+  { link: 'projects', title: 'Projects' },
+  { link: 'events', title: 'Events' },
+  { link: 'publications', title: 'Publications' },
+  { link: 'presentations', title: 'Presentations' },
+  { link: 'opportunities', title: 'Opportunities' },
+  { link: 'about', title: 'About' }
 ]
 
-const Navigation = props => {
-
-  const navigationButtons = pages.map((page, index) => {
-    return (
-      <Link to={page.link} key={index}><Button theme={theme} label={page.title}></Button></Link>
-    )
-  })
+const Navigation = () => {
+  const navigationButtons = pages.map((page, index) => (
+    <Link to={page.link} key={index}><Button theme={theme} label={page.title} /></Link>
+  ))
 
   return (
     <AppBar theme={theme}>
-      <Link to='/' ><img src="../../images/Logos/CoSSMOLogo.svg" /></Link>
+      <Link to="/" >
+        <img
+          src="../../images/Logos/CoSSMOLogo.svg"
+          role="presentation"
+        />
+      </Link>
       <RTBNavigation theme={theme}>
         {navigationButtons}
       </RTBNavigation>

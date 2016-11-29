@@ -1,3 +1,7 @@
+import path from 'path'
+import autoprefixer from 'autoprefixer'
+import lost from 'lost'
+
 const cssLoaderWithModules =
     'css?modules&localIdentName=[name]__[local]___[hash:base64:5]'
 
@@ -23,8 +27,8 @@ export default {
   devServer: {
     historyApiFallback: true
   },
-  postcss: () => [require('autoprefixer'), require('lost')],
+  postcss: () => [autoprefixer, lost],
   sassLoader: {
-    data: '@import "' + require('path').resolve(__dirname, 'theme/_theme.scss') + '";'
+    data: `@import "${path.resolve(__dirname, 'theme/_theme.scss')}";`
   }
 }

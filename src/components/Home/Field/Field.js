@@ -10,9 +10,10 @@ const getBackgroundImageStyle = image => ({
 const getDisciplinesStyle = props => {
   const topics = props.topics.map((topic, index) =>
     <div
-        className={s.discipline}
-        style={getBackgroundImageStyle(topic.image)}
-        key={index}>
+      className={s.discipline}
+      style={getBackgroundImageStyle(topic.image)}
+      key={index}
+    >
       <h5>{topic.name}</h5>
     </div>
   )
@@ -26,13 +27,14 @@ const getDisciplinesStyle = props => {
 }
 
 const Field = props => {
-  if (props.disciplines) return getDisciplinesStyle(props);
+  if (props.disciplines) return getDisciplinesStyle(props)
 
   const topics = props.topics.map((topic, index) =>
     <div
-        className={s.topic}
-        style={getBackgroundImageStyle(topic.image)}
-        key={index}>
+      className={s.topic}
+      style={getBackgroundImageStyle(topic.image)}
+      key={index}
+    >
       <h4>{topic.name}</h4>
     </div>
   )

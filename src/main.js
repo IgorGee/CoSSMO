@@ -14,13 +14,13 @@ import About from './components/About'
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
-      <Route path="projects" component={Projects}/>
-      <Route path="events" component={Events}/>
-      <Route path="publications" component={Publications}/>
-      <Route path="presentations" component={Presentations}/>
-      <Route path="opportunities" component={Opportunities}/>
-      <Route path="about" component={About}/>
+      <IndexRoute component={Home} />
+      <Route path="projects" component={Projects} />
+      <Route path="events" component={Events} />
+      <Route path="publications" component={Publications} />
+      <Route path="presentations" component={Presentations} />
+      <Route path="opportunities" component={Opportunities} />
+      <Route path="about" component={About} />
     </Route>
   </Router>
   , document.getElementById('root'))
