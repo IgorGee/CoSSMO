@@ -1,3 +1,4 @@
+// @flow
 import path from 'path'
 import autoprefixer from 'autoprefixer'
 import lost from 'lost'

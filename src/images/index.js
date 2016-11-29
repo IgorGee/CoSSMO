@@ -1,3 +1,4 @@
+// @flow
 export const topics = {
   vrLens: require('./Topics/vr-lens.jpg'),
   cups: require('./Topics/cups.jpg'),
