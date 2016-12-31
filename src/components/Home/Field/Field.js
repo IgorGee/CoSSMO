@@ -10,13 +10,16 @@ const getBackgroundImageStyle = image => ({
 
 const getDisciplinesStyle = props => {
   const topics = props.topics.map((topic, index) =>
-    <div
+    <a
+      key={index}
+      target="_blank"
+      rel="noopener noreferrer"
+      href={topic.link}
       className={s.discipline}
       style={getBackgroundImageStyle(topic.image)}
-      key={index}
     >
       <h5>{topic.name}</h5>
-    </div>
+    </a>
   )
 
   return (
@@ -31,13 +34,16 @@ const Field = props => {
   if (props.disciplines) return getDisciplinesStyle(props)
 
   const topics = props.topics.map((topic, index) =>
-    <div
+    <a
+      key={index}
+      target="_blank"
+      rel="noopener noreferrer"
+      href={topic.link}
       className={s.topic}
       style={getBackgroundImageStyle(topic.image)}
-      key={index}
     >
       <h4>{topic.name}</h4>
-    </div>
+    </a>
   )
 
   return (
