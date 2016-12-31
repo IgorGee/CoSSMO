@@ -1,3 +1,9 @@
 .root {
   width: 100%;
+
+  .outreach {
+    &:not(:first-child) {
+      margin-top: 8px;
+    }
+  }
 }
