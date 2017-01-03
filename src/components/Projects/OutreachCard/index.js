@@ -1,3 +1,3 @@
-import OutReachCard from './OutreachCard'
+import OutreachCard from './OutreachCard'
 
-export default OutReachCard
+export default OutreachCard

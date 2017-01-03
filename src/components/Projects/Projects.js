@@ -1,7 +1,7 @@
 // @flow
 import React from 'react'
 import { Tab, Tabs } from 'react-toolbox'
-import OutReachCard from './OutreachCard'
+import OutreachCard from './OutreachCard'
 
 import s from './styles.scss'
 
@@ -20,7 +20,7 @@ export default class Projects extends React.Component {
         <Tabs index={this.state.index} onChange={this.handleTabChange} fixed>
           <Tab label="Outreach">
             <h4 className={s.outreach}>2015</h4>
-            <OutReachCard
+            <OutreachCard
               className={s.outreach}
               title="MedStartUp"
               text="We have met with even more companies than before.
@@ -28,7 +28,7 @@ export default class Projects extends React.Component {
             />
 
             <h4 className={s.outreach}>2014</h4>
-            <OutReachCard
+            <OutreachCard
               className={s.outreach}
               title="MedStartUp"
               text="MedStartUp brings together academic institutions and companies
@@ -43,7 +43,7 @@ export default class Projects extends React.Component {
               learning methods, intelligent algorithms, as well as algorithms
               for detecting preconditions for undesirable states."
             />
-            <OutReachCard
+            <OutreachCard
               className={s.outreach}
               title="Trains Don't Vanish!"
               subtitle="ROADEF/EURO 2014 Challenge"
