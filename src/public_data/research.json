@@ -1,0 +1,240 @@
+[
+  {
+    "title": "Stochastic Model For Chemical Reactions In The Cells",
+    "people": [
+      {
+        "name": "Alexey Nikolaev",
+        "position": "PhD Student"
+      }
+    ],
+    "description": "The development of new techniques for analyzing and controlling stochastic processes that are described as Chemical Reaction Networks (CRN). In our approach, we focus on identifying the most important parameters of the system and controlling them to achieve the desired changes in the system behavior using various stochastic optimization methods. In particular, at the current stage we investigate the possibility of controlling the Circadian clock gene regulatory network, finding the optimal rates for maintaining the period of its oscillation. This work can find its application in the development of new diagnostic techniques and medicine.",
+    "topics": [
+      "bioinformatics"
+    ]
+  },
+  {
+    "title": "Algorithms",
+    "people": [
+      {
+        "name": "Hansaim Lim",
+        "position": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Lei Xie"
+    ],
+    "description": "Development of probability dual-regularized one-class collaborative filtering algorithm, and applications of the method to solving problems in bioinformatics and chemoinformatics.",
+    "topics": [
+      "bioinformatics"
+    ]
+  },
+  {
+    "title": "Multiple RNA Interaction",
+    "people": [
+      {
+        "name": "Syed Ali Ahmad",
+        "position": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Saad Mneimneh"
+    ],
+    "description": "Our research deals with predicting the outcome of multiple RNA interaction. RNA folding and pair wise interaction are well studied problems with reasonable solutions. The problem of multiple RNA interaction is very recent and previous solutions have been very limited in scope. We have devised exact and approximation algorithms based on dynamic programming to the predict the joint structure of multiple RNA sequences. Recently, we have developed algorithms to predict multiple solutions. Our work has a direct impact on understanding behavior of RNAs in the spliceosome.",
+    "topics": [
+      "bioinformatics"
+    ]
+  },
+  {
+    "title": "Mathematical Models For Secondary Structures In Proteins",
+    "people": [
+      {
+        "name": "Alexey Nikolaev",
+        "position": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Saad Mneimneh"
+    ],
+    "description": "Developing probabilistic models for the evolution of secondary structure and using those models to predict secondary structure based on sequence information alone.",
+    "topics": [
+      "bioinformatics"
+    ]
+  },
+  {
+    "title": "Social Networks",
+    "people": [
+      {
+        "name": "Alexey Nikolaev",
+        "position": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Saad Mneimneh"
+    ],
+    "description": "Networks of Teams using simplicial complex models. Modeling teams as simplicial complexes and constructing functions to measure the strength of the teams.",
+    "topics": [
+      "stochastic_modeling"
+    ]
+  },
+  {
+    "title": "Musical Scales",
+    "people": [
+      {
+        "name": "Saman Farhat",
+        "position": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Saad Mneimneh"
+    ],
+    "description": "Two-dimensional models of musical scales and their relation to the cochlea. Number theory is used to derive two-dimensional models of musical scales where one dimension is the frequency, and another dimension is \"height\". In this model, sharp notes exhibit themselves as the peaks.",
+    "topics": [
+      "stochastic_modeling"
+    ]
+  },
+  {
+    "title": "The Carpool Problem",
+    "people": [
+      {
+        "name": "Saman Farhat",
+        "position": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Saad Mneimneh"
+    ],
+    "description": "Scheduling solutions for a variety of scenarios of carpool problems. Performance and analysis of Online and Offline algorithms are considered.",
+    "topics": [
+      "stochastic_optimization"
+    ]
+  },
+  {
+    "title": "Rescue Robots",
+    "people": [
+      {
+        "name": "Alexandra Diamond",
+        "position": "Mathematics Masters Project"
+      }
+    ],
+    "principalInvestigators": [
+      "Felisa Vázquez-Abad"
+    ],
+    "description": "A robot must locate and retrieve an artifact that is sending signals, but has limited battery life. First Scenario: All calculations are completed by a centralized computer that is accepting and analyzing the signals from the artifact. These signals contain estimates of the distance of the central computer to the artifact. Once all calculations are completed, the robot is then sent to the rescue. This approach allows a cheaper rescue robot, that is not equipped with the sensors and capability to execute the algorithms, but comes at the cost of time spent collecting signals. The risk factor is incorrectly estimating the location of the artifact, and thus not being able to locate it if the less equipped robot is only in the proximity of it. Second Scenario: The robot is equipped with computational and sensing capabilities and it performs the optimization in real time as it moves towards the artifact. The risk factor is associated with the extra consumption of energy while executing the task, and probability of damage to more expensive equipment. We study the convergence of executing estimation analysis and algorithm execution while in motion.",
+    "topics": [
+      "stochastic_optimization"
+    ]
+  },
+  {
+    "title": "Stochastic Mixed Integer And Gradient Search Methods For Constrained Problems",
+    "people": [
+      {
+        "name": "Larry Fenn",
+        "position": "Mathematics Masters Project"
+      }
+    ],
+    "principalInvestigators": [
+      "Felisa Vázquez-Abad"
+    ],
+    "description": "An ordinal variable b denotes resources. For each b, there is a control variable u that yields a convex cost C(b,u). We seek minimal cost satisfying a constraint of the form P(b,u) < a. Both functions are steady state averages of a stationary complex process: function evaluations are very costly. We combine Fibonacci search in b with gradient search in u to find the optimal solution and propose a sequential sampling for minimal computation. We analyze convergence and discuss parallel computation. The methods are illustrated with a problem in public transportation where buses take people to and from the airport terminals to the parking lots.",
+    "topics": [
+      "stochastic_optimization"
+    ]
+  },
+  {
+    "title": "Markov Decision Processes With Continuous Control",
+    "people": [
+      {
+        "name": "Pinhus Dashevsky",
+        "position": "Columbia Undergraduate"
+      }
+    ],
+    "principalInvestigators": [
+      "Felisa Vázquez-Abad",
+      "Matthew Johnson"
+    ],
+    "description": "MDP's are well understood for finite control problems using dynamic programming methods. For continuous control variables there are no definite methods for solving the problem in finite time. In this research we explore an intriguing approach that uses Linear Programming methods for surrogate (finite control) problems. Pinhus is writing the code to extend our results to test a sequential procedure for efficiency improvement. We apply this method to a problem of optimal dosage for chronic disease treatment under a safety constraint.",
+    "topics": [
+      "stochastic_optimization"
+    ]
+  },
+  {
+    "title": "Robotic Bees",
+    "people": [
+      {
+        "name": "Silvano Bernabel",
+        "position": "Mathematics Masters Project"
+      }
+    ],
+    "principalInvestigators": [
+      "Felisa Vázquez-Abad"
+    ],
+    "description": "Organization and coordination of a robotic bee colony tasked with arriving at a destination in minimal time and constrained with collision avoidance. The clustering, speeds and directions of such bees are optimized by a cloud based algorithm, for which parallelization by grouping, selection based on similar qualifiers, is sought. Noise reduction is achieved through iteration and safety distance parameter balancing, moving averages estimations, and local awareness exploitation.",
+    "topics": [
+      "stochastic_optimization"
+    ]
+  },
+  {
+    "title": "Sensor Coverage Of A Barrier",
+    "people": [],
+    "principalInvestigators": [
+      "Amotz Bar-Noy"
+    ],
+    "description": "Battery lifetime is a significant bottleneck on wireless sensor network performance. Thus, one of the fundamental problems in sensor networks is optimizing battery usage when accomplishing tasks such as covering, monitoring, tracking and communicating. In one paper [BRT13] we study the problem of covering a boundary or a barrier by mobile sensors, e.g., covering borders, coastlines, railroads, etc. Also, often covering region boundaries is the cost efficient way of protecting the interior. The focus of this paper is to determine what is the most energy efficient way of covering a straight-line barrier for a predetermined amount of time with mobile sensors given some initial arrangement of these sensors on the barrier. Prior work tried to optimize either covering costs or mobility costs but not a combination of both costs. We consider a model where energy is consumed by sensing and movement from a single battery source as is most commonly the architecture. In another paper [BRT15] we assume that a sensor can maintain coverage until its battery is completely depleted. The network of sensors cover the barrier until the death of the first sensor, whereby a gap in coverage is created and the life of the network expires. In a third paper [BBR13] we consider the Set Once Strip Cover problem, in which n wireless sensors are deployed over a one-dimensional region. Each sensor has a fixed battery that drains in inverse proportion to a radius that can be set just once, but activated at any time. The problem is to find an assignment of radii and activation times that maximizes the length of time during which the entire region is covered.",
+    "topics": [
+      "stochastic_optimization"
+    ]
+  },
+  {
+    "title": "Public Bike Systems",
+    "people": [
+      {
+        "name": "Laurent Barraud",
+        "title": "Research Assistant"
+      },
+      {
+        "name": "Ted Brown",
+        "title": "Queens College Professor"
+      }
+    ],
+    "principalInvestigators": [
+      "Felisa Vázquez-Abad"
+    ],
+    "description": "Creation of a modular simulator for a public bike system. This is part of a larger research project with Prof Jason Young (Psychology Hunter) and Prof Carsten Kessler (Geography Hunter) to propose an integrated IT public bike system to create system's self-awareness and intelligence and manage customers and bikes with uncertainty reduction.",
+    "topics": [
+      "stochastic_optimization",
+      "computer_simulation"
+    ]
+  },
+  {
+    "title": "Transportation",
+    "people": [
+      {
+        "name": "Sophie Wu",
+        "title": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Ted Brown"
+    ],
+    "description": "Access to real taxi data is used to analyze various simulation scenarios for public transport. The project involves simulations on bus data and on social networks.",
+    "topics": [
+      "computer_simulation"
+    ]
+  },
+  {
+    "title": "Online Classification From 3D Range Data",
+    "people": [
+      {
+        "name": "Thomas Flynn",
+        "title": "PhD Student"
+      }
+    ],
+    "principalInvestigators": [
+      "Ioannis Stamos"
+    ],
+    "description": "In this project we aim to combine the methods of stochastic optimization, with online classification methods for processing 3D visual data obtained by a range scanner. The online classification methods are based on sequential hypothesis testing, where traditionally the design of the test is done by an expert. In the project we are developing new algorithms, involving stochastic optimization, which can automatically tune the parameters of such sequential tests to fit examples of desired behavior. Hopefully this will improve the practice of designing online classification systems.Prof Stamos provides the application framework and datasets and he is mentoring Thomas for the completion of his 3D online classification project. This is a joint collaboration with PRof Hadjiliadis and Vázquez-Abad, who provide expertise in fast change detection methods and in stochastic optimization.",
+    "topics": [
+      "computer_vision"
+    ]
+  }
+]
