@@ -16,6 +16,7 @@ export default {
     loaders: [
       { test: /\.js$/, loader: 'babel', exclude: /node_modules/ },
       { test: /\.scss$/, loaders: ['style', cssLoaderWithModules, 'postcss', 'sass'] },
+      { test: /\.json$/, loader: 'json' },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
         loaders: [

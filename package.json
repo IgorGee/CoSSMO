@@ -28,6 +28,7 @@
     "flow-bin": "^0.36.0",
     "image-webpack-loader": "^3.0.0",
     "immutability-helper": "^2.0.0",
+    "json-loader": "^0.5.4",
     "lost": "^7.1.0",
     "node-sass": "^3.10.1",
     "postcss": "^5.2.5",
