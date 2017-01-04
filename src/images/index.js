@@ -20,3 +20,10 @@ export const topics = {
   socialMedia: require('./Topics/social-media.jpg'),
   railway: require('./Topics/railway.jpg')
 }
+
+export const faculty = {
+  AmotzBarNoy: require('./Faculty/AmotzBarNoy.jpg'),
+  FelisaVazquezAbad: require('./Faculty/FelisaVazquezAbad.png'),
+  SaadMneimneh: require('./Faculty/SaadMneimneh.jpg'),
+  TedBrown: require('./Faculty/TedBrown.png')
+}
