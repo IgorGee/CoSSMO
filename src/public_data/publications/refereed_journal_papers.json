@@ -1,10 +1,10 @@
 [
   {
     "title": "Performance Analysis of CR-Honeynet to Prevent Jamming Attack through Stochastic Modeling",
-    "authors": ["Bhunia", "Suman and Sengupta", "Shamik and Vázquez-Abad, Felisa"],
+    "authors": ["Bhunia Suman", "Shamik Sengupta", "Felisa Vázquez-Abad"],
     "journal": {
       "name": "Pervasive and Mobile Computing",
-      "volume": "No. 21",
+      "volume": "21",
       "pages": {
         "start": 133,
         "end": 149
@@ -17,7 +17,7 @@
     "authors": ["Daniel Dufresne", "Felisa Vázquez-Abad"],
     "journal": {
       "name": "Economics: The Open-Access, Open-Assessment E-Journal",
-      "volume": "Vol. 7",
+      "volume": "7",
       "pages": {
         "start": 2013,
         "end": 2023

@@ -1,8 +1,8 @@
 [
   {
     "title": "Stochastic Path Optimization for Robotic Bees using Cloud Computing",
-    "authors": ["F.J. Vázquez-Abad", "S. Bernabel"],
-    "editors": null,
+    "authors": ["Felisa Vázquez-Abad", "Silvano Bernabel"],
+    "editors": [],
     "event": {
       "name": "13th International Workshop on Discrete Event Systems (WODES)",
       "location": "Xi’an, China",
@@ -18,8 +18,8 @@
   },
   {
     "title": "Stochastic Approximation for Regulating Circadian Cycles, a Precision Medicine Viewpoint",
-    "authors": ["A. Nikolaev", "F.J. Vázquez-Abad"],
-    "editors": ["L. Yilmaz", "W. K V. Chan", "I. Moon", "T. M. K. Roeder", "C. Macal", "M. D. Rossetti"],
+    "authors": ["Alexey Nikolaev", "Felisa Vázquez-Abad"],
+    "editors": ["L. Yilmaz", "W. K. V. Chan", "I. Moon", "T. M. K. Roeder", "C. Macal", "M. D. Rossetti"],
     "event": {
       "name": "Winter Simulation Conference",
       "location": "Hampton Beach, CA",
@@ -32,7 +32,7 @@
   },
   {
     "title": "Change of Measure for the Square Root Process",
-    "authors": ["D. Dufresne", "F.J. Vázquez-Abad", "S. Chin"],
+    "authors": ["Daniel Dufresne", "Felisa Vázquez-Abad", "Stephen Chin"],
     "editors": ["A. Tolk", "S. D. Diallo", "I. O. Ryzhov", "L. Yilmaz", "S. Buckley", "J. A. Miller"],
     "event": {
       "name": "Winter Simulation Conference",
@@ -49,7 +49,7 @@
   },
   {
     "title": "LP-Based Approaches to Stationary Constrained Markov Decision Problems",
-    "authors": ["F.J. Vázquez-Abad", "P. Dashevsy", "M.P. Johnson"],
+    "authors": ["Felisa Vázquez-Abad", "Pinhus Dashevsky", "Matthew P. Johnson"],
     "editors": ["J.M. Faure"],
     "event": {
       "name": "WODES",
@@ -63,8 +63,8 @@
   },
   {
     "title": "Ghost Simulation Model for Discrete Event Systems, an Application to a Local Bus Service",
-    "authors": ["F.J. Vázquez-Abad"],
-    "editors": ["R. Pasupathy", "S.-H. Kim", "A. Tolk", "R. Hill", "M. E. Kuhl"],
+    "authors": ["Felisa Vázquez-Abad"],
+    "editors": ["R. Pasupathy", "S. H. Kim", "A. Tolk", "R. Hill", "M. E. Kuhl"],
     "event": {
       "name": "Winter Simulation Conference",
       "location": "Washington, DC",

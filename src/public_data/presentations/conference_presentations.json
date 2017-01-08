@@ -1,7 +1,7 @@
 [
   {
     "title": "The Public Bikes: Integrating Information Technology for a Self Regulated PBS",
-    "speakers": ["F.J. Vázquez-Abad", "T. Brown", "C. Kessler", "J. Young"],
+    "speakers": ["Felisa Vázquez-Abad", "Ted Brown", "Carsten Kessler", "Jason Young"],
     "event": "Transportation Technology Symposium: Innovative Mobility Solutions",
     "location": "New York",
     "date": {
@@ -11,7 +11,7 @@
   },
   {
     "title": "Stochastic Mixed Integer and Gradient Search Methods for Constrained Problems",
-    "speakers": ["F.J. Vázquez-Abad", "L. Fenn"],
+    "speakers": ["Felisa Vázquez-Abad", "Larry Fenn"],
     "event": "INFORMS Annual Meeting",
     "location": "New York",
     "date": {
@@ -21,7 +21,7 @@
   },
   {
     "title": "Stochastic Approximation for Optimal Self-driven Sensor-guided Rescue Robots Under Uncertainty",
-    "speakers": ["A. Diamond", "F.J. Vázquez-Abad"],
+    "speakers": ["Alexandra Diamond", "Felisa Vázquez-Abad"],
     "event": "INFORMS Annual Meeting",
     "location": "Philadelphia",
     "date": {
@@ -31,7 +31,7 @@
   },
   {
     "title": "A Hybrid Stochastic Model for Self-regulated Biochemical Systems",
-    "speakers": ["F.J. Vázquez-Abad", "A. Nikolaev"],
+    "speakers": ["Felisa Vázquez-Abad", "Alexey Nikolaev"],
     "event": "Fourth Rutgers Applied Probability Conference",
     "location": "Rutgers University",
     "date": {
@@ -41,7 +41,7 @@
   },
   {
     "title": "A View to Future Mathematical Modeling for Transportation Systems",
-    "speakers": ["F.J. Vázquez-Abad"],
+    "speakers": ["Felisa Vázquez-Abad"],
     "event": "Ground Transportation Technology Symposium: Big Data and Innovative Solutions for Safe, Efficient and Sustainable Mobility",
     "location": "New York",
     "date": {
@@ -51,7 +51,7 @@
   },
   {
     "title": "Mixed-Integer and Continuous Constrained Optimization via Simulation",
-    "speakers": ["F.J. Vázquez-Abad"],
+    "speakers": ["Felisa Vázquez-Abad"],
     "event": "IFORS",
     "location": "Barcelona",
     "date": {
@@ -61,7 +61,7 @@
   },
   {
     "title": "Statistical Bias Correction for Stochastic Optimization",
-    "speakers": ["F.J. Vázquez-Abad"],
+    "speakers": ["Felisa Vázquez-Abad"],
     "event": "INFORMS Applied Probability Conference",
     "location": "Costa Rica",
     "date": {
