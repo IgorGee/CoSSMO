@@ -73,7 +73,7 @@ export default class Projects extends React.Component {
             {researchCards}
           </Tab>
           <Tab label="Education">
-            <small>Third Content</small>
+            <small>Under Construction</small>
           </Tab>
         </Tabs>
       </section>
