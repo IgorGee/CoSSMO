@@ -3,6 +3,7 @@ import React from 'react'
 import { Tabs, Tab } from 'react-toolbox'
 import ConferencePresentationCard from './ConferencePresentationCard'
 import InvitedLectureCard from './InvitedLectureCard'
+import VisitorCard from './VisitorCard'
 
 import s from './styles.scss'
 
@@ -52,6 +53,18 @@ export default class Events extends React.Component {
             {invitedLectureCards}
           </Tab>
           <Tab label="Visitors">
+            <h4>2015</h4>
+            <VisitorCard
+              title="Professor Daniel Dufresne, Centre for Actuarial Studies, Department of Economics, University of Melbourne"
+              subtitle="November 25 - December 20"
+              text="During his visit to the Institute, Prof Dufresne resume our collaboration working on the problem of dimension reduction for simulation and numerical evaluation of the sum of lognormal random variables.\n\nHe presented informal seminars every week on Wednesdays 2-3 pm at Hunter North 1000 B."
+            />
+            <h4>2014</h4>
+            <VisitorCard
+              title="Professor Daniel Dufresne, Centre for Actuarial Studies, Department of Economics, University of Melbourne"
+              subtitle="April 21-25 and May 2 - 8"
+              text='During his visit to the Institute, Prof Dufresne conducted research on computational efficiency for problems in financial mathematics. His lectures provided the basis for a scholarly paper on the simulation of financial options under a change of measure for stochastic volatility models. Students that work within these projects include Elizabeth Pysher (orthogonal polynomials and mathematica code) and Alexey Nikolaev (Filtered Monte Carlo simulation for the estimation of Lyapunov exponents).\n\nApril 23 and 25: 2 - 3 pm. "Recursion formulas for Gram Charlier Distributions", Room N 1000 C.\nMay 5 and 6: 2 - 3 pm. "Change of Measure for the Square Root Process", Room N 1000 C.'
+            />
           </Tab>
           <Tab label="News">
           </Tab>
