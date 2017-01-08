@@ -4,6 +4,7 @@ import { Tabs, Tab } from 'react-toolbox'
 import ConferencePresentationCard from './ConferencePresentationCard'
 import InvitedLectureCard from './InvitedLectureCard'
 import VisitorCard from './VisitorCard'
+import NewsCard from './NewsCard'
 
 import s from './styles.scss'
 
@@ -67,6 +68,22 @@ export default class Events extends React.Component {
             />
           </Tab>
           <Tab label="News">
+            <h4>2013</h4>
+            <NewsCard>
+              <span>
+                On April 29, 2013 the CUNY Board of Trustees approved the creation of the CUNY Institute for Computer Simulation, Stochastic Modeling and Optimization.
+              </span>
+              <br /><br />
+              <a href="http://www.cuny.edu/about/administration/offices/aa/acr/AcademicallySpeakingMayJune2013.pdf">
+                AS, vol 5, issue 5, May 2013
+              </a>
+            </NewsCard>
+            <h4>2012</h4>
+            <NewsCard>
+              <span>
+                On November 14, 2012 Hunter College Senate approves resolution to establish the CUNY Institute CoSSMO at Hunter College.
+              </span>
+            </NewsCard>
           </Tab>
         </Tabs>
       </section>
