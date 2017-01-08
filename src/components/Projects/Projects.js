@@ -2,8 +2,21 @@
 import React from 'react'
 import { Tab, Tabs } from 'react-toolbox'
 import OutreachCard from './OutreachCard'
+import ResearchCard from './ResearchCard'
 
 import s from './styles.scss'
+
+import researchObjects from '../../public_data/research.json'
+
+const researchCards = researchObjects.map((research, index) => (
+  <ResearchCard
+    key={index}
+    title={research.title}
+    description={research.description}
+    principalInvestigators={research.principalInvestigators}
+    people={research.people}
+  />
+))
 
 export default class Projects extends React.Component {
   state = {
@@ -57,7 +70,7 @@ export default class Projects extends React.Component {
             />
           </Tab>
           <Tab label="Research">
-            <small>Second Content</small>
+            {researchCards}
           </Tab>
           <Tab label="Education">
             <small>Third Content</small>
