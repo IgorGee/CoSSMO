@@ -7,6 +7,7 @@
         "position": "PhD Student"
       }
     ],
+    "principalInvestigators": [],
     "description": "The development of new techniques for analyzing and controlling stochastic processes that are described as Chemical Reaction Networks (CRN). In our approach, we focus on identifying the most important parameters of the system and controlling them to achieve the desired changes in the system behavior using various stochastic optimization methods. In particular, at the current stage we investigate the possibility of controlling the Circadian clock gene regulatory network, finding the optimal rates for maintaining the period of its oscillation. This work can find its application in the development of new diagnostic techniques and medicine.",
     "topics": [
       "bioinformatics"
