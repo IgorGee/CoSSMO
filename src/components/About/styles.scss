@@ -2,10 +2,6 @@
   width: 100%;
   justify-content: center;
 
-  img {
-    margin: 16px auto;
-  }
-
   ul {
     list-style-position: outside;
     margin-left: 1em;
@@ -26,11 +22,18 @@
     }
   }
 
+  .orePrinciple {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   .lab {
     display: flex;
     flex-wrap: wrap;
 
     > img {
+      margin: 16px auto;
       width: 100%;
 
       @include for-tablet-portrait-up {

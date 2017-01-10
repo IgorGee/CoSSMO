@@ -154,7 +154,8 @@ export default class Events extends React.Component {
             <img
               src={superLinearGrowth}
               alt="Super Linear Growth"
-              width="800px"
+              width="100%"
+              style={{margin: '16px auto'}}
             />
 
             <h3>Academic Purpose</h3>
@@ -165,7 +166,7 @@ export default class Events extends React.Component {
               <li>Increase and promote higher research output and knowledge transfer by identifying common features in the mathematical models of current programs and potential new projects.</li>
             </ul>
 
-            <div>
+            <div className={s.orePrinciple}>
               <div>
                 <h4>The ORE Principle</h4>
                 <ul>
