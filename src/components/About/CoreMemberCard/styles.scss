@@ -1,0 +1,14 @@
+.root {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  lost-column: 1/1;
+
+  @include for-tablet-portrait-up {
+    lost-column: 1/2;
+  }
+
+  @include for-desktop-up {
+    lost-column: 1/4;
+  }
+}
