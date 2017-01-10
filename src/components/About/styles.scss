@@ -3,7 +3,7 @@
   justify-content: center;
 
   img {
-    margin: 0 auto;
+    margin: 16px auto;
   }
 
   ul {
@@ -23,6 +23,24 @@
     h4 {
       margin-top: 8px;
       margin-bottom: 4px;
+    }
+  }
+
+  .lab {
+    display: flex;
+    flex-wrap: wrap;
+
+    > img {
+      width: 100%;
+
+      @include for-tablet-portrait-up {
+        width: 400px;
+        height: 400px;
+      }
+    }
+
+    > div {
+      margin-bottom: 16px;
     }
   }
 }

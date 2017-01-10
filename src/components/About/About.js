@@ -187,7 +187,18 @@ export default class Events extends React.Component {
             <p>The research projects will foster interactions among students, faculty and industry members. Projects will be used to create pedagogical material as "case studies", made available throughout CUNY. Material gathered in this manner may be incorporated for training courses. Student internships at partner companies or government sectors and workshops at the Institute for the partner companies and government agencies will be promoted as well.</p>
           </Tab>
           <Tab label="Our Lab">
-            Lab
+            <main className={s.lab}>
+              <img src="../../images/misc/lab1.jpg" alt="Lab Image 1" />
+              <img src="../../images/misc/lab2.jpg" alt="Lab Image 2" />
+              <div>
+                <p>The vision of synergy and interaction among researchers is reflected in the open plan of the lab where students from different backgrounds and levels carry out discussions and share experiences and knowledge.</p>
+                <p>We provide a microwave oven, a refrigerator and a coffee machine for them to use. Our space provides a friendly, family-like environment to promote creative thinking in a modern setting.</p>
+              </div>
+              <div>
+                <p>Our computer lab offers desk space for 8 permanent students, 3 academic visiting Faculty and a number of interns that can share 6 working stations. Interns usually come a few days per week, so we provide accommodate a convenient space for interaction and team work. The design of the lab is a modern open plan office with areas for informal discussions and interactions.</p>
+                <p>In addition, CoSSMO has a server (Dell PowerVault NX3200 210-ABUN with 16GB (4x4GB) RDIMM, 1600MT/s) and a 10 TB Dell PowerEdge R420 data storage unit that can be accessed from the users computers to perform regular computations and store data in smaller test problems. For special projects, we offer students smartphones and tables on loan for development of prototype apps related to our research.</p>
+              </div>
+            </main>
           </Tab>
         </Tabs>
       </section>
