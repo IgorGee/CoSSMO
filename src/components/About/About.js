@@ -4,6 +4,12 @@ import { Tabs, Tab, Chip } from 'react-toolbox'
 import CoreMemberCard from './CoreMemberCard'
 import FacultyAvatar from '../../Utilities/FacultyAvatar'
 
+import superLinearGrowth from '../../images/misc/super-linear-growth.png'
+import oreBuildingBridges from '../../images/misc/ore-building-bridges.png'
+import lab1Image from '../../images/misc/lab1.jpg'
+import lab2Image from '../../images/misc/lab2.jpg'
+import { faculty as Images } from '../../images'
+
 import s from './styles.scss'
 
 export default class Events extends React.Component {
@@ -25,25 +31,25 @@ export default class Events extends React.Component {
               <CoreMemberCard
                 title="Felisa Vázquez-Abad"
                 subtitle="Executive Director"
-                image="../../images/Faculty/FelisaVazquezAbad.png"
+                image={Images.FelisaVazquezAbad}
                 description="Felisa Vazquez-Abad is a Professor of Computer Science at Hunter College. Her research lies at the intersection between mathematics, engineering and computer science. She is mainly interested in the optimization of complex systems under uncertainty, primarily to understand, control and / or build efficient self-regulated learning systems. She obtained a B.Sc. in Physics in 1983 and a M.Sc. in Statistics and Operations Research in 1984 from the Universidad Nacional Autónoma de México. In 1989 she obtained a Ph.D. in Applied Mathematics from Brown University. After four years doing postdoctoral research at Brown University and later at the INRS-Telecommunications in Montreal, Canada, she became a professor of computer science at Université de Montréal, Canada in 1993. In 2004 she became a professor of mathematics and statistics at the University of Melbourne, Australia, until 2009, when she moved to CUNY."
               />
               <CoreMemberCard
                 title="Deputy Director"
                 subtitle="Ted Brown"
-                image="../../images/Faculty/TedBrown.png"
+                image={Images.TedBrown}
                 description="Ted Brown is the Executive Director of the CUNY Institute for Software Design and Development, a faculty member in the Computer Science Department at Queens College and the Graduate Center. He was the Executive Officer of the PhD program at CUNY for over 13 years until July 2013. His areas of research are analytic modeling, simulation methodology and design and analysis of algorithms. He has been collecting several large data bases and has become interested in their analysis."
               />
               <CoreMemberCard
                 title="Saad Mneimneh"
                 subtitle="Lead For Outreach"
-                image="../../images/Faculty/SaadMneimneh.jpg"
+                image={Images.SaadMneimneh}
                 description="Saad Mneimneh is a Professor of Computer Science at Hunter College. His research revolves around the application of mathematical modeling and algorithmic techniques to various problems, including scheduling, load balancing, and more recently computational biology, especially the problem of RNA interaction and combinatorial problems inspired by it. His work includes complexity analysis, approximation algorithms, game theory/optimal strategies, and lower/upper bounds."
               />
               <CoreMemberCard
                 title="Lead For Research"
                 subtitle="Amotz Bar-Noy"
-                image="../../images/Faculty/AmotzBarNoy.jpg"
+                image={Images.AmotzBarNoy}
                 description="Amotz Bar-Noy received the B.Sc. degree (1981) in Mathematics and Computer Science (summa cum laude) and the Ph.D. degree (1987) in Computer Science, both from the Hebrew University, Israel. He was a post-doc fellow in Stanford University, California (1987-1989); a Research Staff Member with IBM Research Center, New York (1989-1996); an associate Professor with the Electrical Engineering Department of Tel Aviv University, Israel (1996-2001); a Principal Technical Staff Member with AT&T research labs in New Jersey (1999-2001). Since 2002 he is a Professor with the Computer and Information Science Department of Brooklyn College - CUNY and with the Computer Science Department of the Graduate Center of CUNY. He has published more than eighty refereed journal articles and more than one hundred refereed conference and workshop articles. He served as a co-chair of the ALGOSENSORS 2012 Symposium. In 2011, he was awarded the Edsger W. Dijkstra Prize in Distributed Computing for being an author of an outstanding paper on the principles of distributed computing, whose significance and impact on the theory and/or practice of distributed computing has been evident for at least a decade. His field of expertise belongs to the Theoretical Computer Science community and to the Networking community. The scope of his research is to bridge the gap between these two communities."
               />
             </main>
@@ -146,7 +152,7 @@ export default class Events extends React.Component {
             <p>CoSSMO will seek to increase the synergy among research, education and outreach. The Institute will aim to integrate academic excellence and service to the public and private sectors of society. It will address problems better solved applying stochastic modeling, computer simulation and/or optimization.</p>
             <p>The operational structure of the Institute will promote research outputs, and it will help create new educational material. It will promote collaborations with the public and private sectors through cross learning and networking, with less work required of the members than working on their own.</p>
             <img
-              src="../../images/misc/super-linear-growth.png"
+              src={superLinearGrowth}
               alt="Super Linear Growth"
               width="800px"
             />
@@ -171,7 +177,7 @@ export default class Events extends React.Component {
                 </ul>
               </div>
               <img
-                src="../../images/misc/ore-building-bridges.png"
+                src={oreBuildingBridges}
                 alt="ORE Building Bridges"
                 width="300px"
               />
@@ -188,8 +194,8 @@ export default class Events extends React.Component {
           </Tab>
           <Tab label="Our Lab">
             <main className={s.lab}>
-              <img src="../../images/misc/lab1.jpg" alt="Lab Image 1" />
-              <img src="../../images/misc/lab2.jpg" alt="Lab Image 2" />
+              <img src={lab1Image} alt="Lab Image 1" />
+              <img src={lab2Image} alt="Lab Image 2" />
               <div>
                 <p>The vision of synergy and interaction among researchers is reflected in the open plan of the lab where students from different backgrounds and levels carry out discussions and share experiences and knowledge.</p>
                 <p>We provide a microwave oven, a refrigerator and a coffee machine for them to use. Our space provides a friendly, family-like environment to promote creative thinking in a modern setting.</p>

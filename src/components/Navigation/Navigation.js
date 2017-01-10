@@ -6,6 +6,8 @@ import { Button } from 'react-toolbox/lib/button'
 import RTBNavigation from 'react-toolbox/lib/navigation'
 import theme from './theme.scss'
 
+import cossmoLogo from '../../images/Logos/CoSSMOLogo.svg'
+
 const pages = [
   { link: '/', title: 'Home' },
   { link: 'projects', title: 'Projects' },
@@ -24,7 +26,7 @@ const Navigation = () => {
     <AppBar theme={theme}>
       <Link to="/" >
         <img
-          src="../../images/Logos/CoSSMOLogo.svg"
+          src={cossmoLogo}
           role="presentation"
         />
       </Link>
