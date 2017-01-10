@@ -6,7 +6,7 @@ import { Button } from 'react-toolbox/lib/button'
 import RTBNavigation from 'react-toolbox/lib/navigation'
 import theme from './theme.scss'
 
-import cossmoLogo from '../../images/Logos/CoSSMOLogo.svg'
+import cossmoLogo from '../../images/Logos/CoSSMOLogo.png'
 
 const pages = [
   { link: '/', title: 'Home' },
