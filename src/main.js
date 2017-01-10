@@ -1,7 +1,7 @@
 // @flow
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
 import App from './components/App'
 import Home from './components/Home'
@@ -12,7 +12,7 @@ import Opportunities from './components/Opportunities'
 import About from './components/About'
 
 ReactDOM.render(
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="projects" component={Projects} />
