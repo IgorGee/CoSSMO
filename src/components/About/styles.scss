@@ -1,3 +1,16 @@
 .root {
   width: 100%;
+
+  img {
+    margin: 0 auto;
+  }
+
+  ul {
+    list-style-position: outside;
+    margin-left: 1em;
+
+    li {
+      margin-bottom: 4px;
+    }
+  }
 }
