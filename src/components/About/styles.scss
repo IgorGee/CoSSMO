@@ -1,5 +1,6 @@
 .root {
   width: 100%;
+  justify-content: center;
 
   img {
     margin: 0 auto;
@@ -10,6 +11,17 @@
     margin-left: 1em;
 
     li {
+      margin-bottom: 4px;
+    }
+  }
+
+  .coreMembers {
+    lost-utility: clearfix;
+  }
+
+  .affiliatedMembers {
+    h4 {
+      margin-top: 8px;
       margin-bottom: 4px;
     }
   }
